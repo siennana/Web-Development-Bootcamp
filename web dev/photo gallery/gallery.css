@@ -1,0 +1,13 @@
+body {
+    padding-top: 80px;
+    background-color: #EEF4F5;
+}
+.fa-grimace {
+    color: pink;
+}
+.jumbotron {
+    background-color: #CCE5ED;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
