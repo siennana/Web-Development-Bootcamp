@@ -1,20 +1,11 @@
+var h1 = document.querySelector("h1");
+var isBlue = false;
 
-var todos = [0];
-var input = prompt("What woud you like to do?");
-while (input !== "quit") {
-    if (input == "new") {
-        var item = prompt("add item");
-        todos.push(item);
+setInterval(function() {
+    if (isBlue) {
+        h1.style.color = "pink";
+    } else {
+        h1.style.color = "blue";
     }
-    else if ("list") {
-        todos.forEach(function(todo, i) {
-            console.log(i + ": " + todo);
-        });
-    }
-    else if ("delete") {
-        var item = prompt("item to delete?");
-        todos.splice(index, 1);
-    }
-    input = prompt("What would you like to do?");
-}
-console.log("Bye bye");
+    isBlue = !isBlue;
+}, 1000);
