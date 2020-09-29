@@ -92,3 +92,6 @@
 - Selectors
     - `getElementsByTagName("xx")` returns a node list
     - `querySelector("xx")`
+
+## Advanced DOM Manipulation
+- `element.addEventListener(event, function(){})`
